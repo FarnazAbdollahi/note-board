@@ -1,0 +1,38 @@
+.new-note {
+    display: flex;
+    flex-flow: column;
+    width: 10rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+input {
+    border:none;
+}
+.btn {
+    display: inline-flex;
+    background-color: #0b032d; /* Green */
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 5px;
+}
+.note-info {
+    display: inline-flex;
+    display: block;
+    background:#fff;
+    margin: 0.3rem;
+    padding: 0.5rem;
+}
+input {
+    margin-left: 0.3rem;
+}
+#content {
+    width: 100%;
+    min-height: 5rem;
+}

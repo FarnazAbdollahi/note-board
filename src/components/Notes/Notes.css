@@ -1,0 +1,53 @@
+
+  ul,li{
+    list-style:none;
+  }
+  ul{
+    overflow:hidden;
+    
+  }
+  ul li{
+    text-decoration:none;
+    color:#000;
+    background:#EED2EE;
+    display:block;
+    min-height:10em;
+    min-width:10em;
+    padding:1em;
+  }
+  ul li{
+    margin:1em;
+    float:left;
+    text-align: center;
+  }
+  ul li :hover {
+    text-decoration: none;
+  }
+  p {
+    min-height: 3rem;
+  }
+  .note:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-out;
+    
+  }
+.btn-delete {  
+    background-color: #0b032d; 
+    width: 3.5rem;
+    vertical-align: bottom;
+    border: none;
+    color: white;
+    margin: 0 0.1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 3px;
+}
+
+.btn-delete:hover {
+  color:#0b032d;
+  background:#ffffff;
+
+}
